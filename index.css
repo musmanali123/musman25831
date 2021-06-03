@@ -1,0 +1,40 @@
+body{
+ background-color: firebrick;
+}
+#dt{
+    border: 4px solid darkcyan;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 50px;
+    color: gold;
+}
+.cont{
+    border: 7px solid  royalblue;
+    border-radius: 10px;
+    background-color: floralwhite;
+    width: 380px;
+    margin: 0 auto;
+    }
+    .main{
+        width: 375px;
+        background-color: peru;
+    }
+    .can{
+        width: 380px;
+        margin-top: 12px;
+        background-color: powderblue;
+    }
+    .btn{
+        width: 92px;
+        margin-top: 5px;
+        background-color:paleturquoise;
+    }
+    .btmn{
+        width: 188px;
+        margin-top: 4px;
+        background-color: saddlebrown  
+    }
+    
