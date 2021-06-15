@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to left, pink, blue, pink);
+  height: 100%;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 50;
+  margin: 1rem 0 3rem;
+  text-align: center;
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+}
+.styling {
+  font-weight: 800;
+  color: lime;
+}
+.input_div {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.input_div .input {
+  padding: 0.5rem 1rem;
+  height: 50px;
+  outline: none;
+  background-color: white;
+  width: 450px;
+  border: none;
+  font-size: 1.15rem;
+  margin: 0.25rem;
+  border-radius: 25px;
+}
+.addbutton {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: white;
+  border: none;
+  color: white;
+  background-color: lime;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.addbutton:hover {
+  opacity: 0.7;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.item {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid white;
+}
+.item_input {
+  background: none;
+  outline: none;
+  color: white;
+  border: none;
+  width: 350px;
+  font-size: 1.4rem;
+}
+.editbutton {
+  font-size: 1.4rem;
+  margin: 0 0.75rem;
+  font-family: "Hind Siliguri", sans-serif;
+  background: none;
+  outline: none;
+  color: lime;
+  border: none;
+  cursor: pointer;
+}
+.removebutton {
+  font-size: 1.4rem;
+  font-family: "Hind Siliguri", sans-serif;
+  background: none;
+  outline: none;
+  color: #e00;
+  border: none;
+  cursor: pointer;
+}

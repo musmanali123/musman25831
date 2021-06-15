@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Todo list</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <script src="todolist.js"></script>
+    <h1><span class="styling">TODO</span>LIST</h1>
+    <div class="input_div">
+        <input class="input" id="inputb" type="text" placeholder="What do you want to do....">
+        <button class="addbutton" onclick="addItem()" > <i class="fa fa-search"></i> </button>
+    </div>
+    <div class="container" id="main" >
+        <div class="item"> 
+            <input type="text" class="item_input" disabled>
+             <button class="editbutton">Edit</button> 
+            <button class="removebutton" >Remove</button>
+        </div>
+    </div>
+    
+</body>
+</html>
